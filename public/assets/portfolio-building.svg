@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Building construction</title>
+  <desc id="desc">Modern building construction with crane and structured facade.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff4ff" />
+      <stop offset="1" stop-color="#e8fff7" />
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#11434e" />
+      <stop offset="1" stop-color="#2fd0aa" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#sky)" />
+  <circle cx="610" cy="70" r="54" fill="#ffffff" opacity=".75" />
+  <path fill="#c8ece5" d="M0 330h720v90H0z" />
+  <path fill="#9fdcd2" d="M36 336h648v18H36z" opacity=".7" />
+  <path stroke="#11434e" stroke-width="12" stroke-linecap="round" d="M120 78h214M130 78v230M306 78v230M120 122h186M120 168h186M120 214h186M120 260h186" />
+  <path fill="#ffffff" stroke="#11434e" stroke-width="12" d="M354 154h178v174H354z" />
+  <path fill="url(#steel)" d="M382 184h34v34h-34zM442 184h34v34h-34zM502 184h34v34h-34zM382 242h34v34h-34zM442 242h34v34h-34zM502 242h34v34h-34z" opacity=".9" />
+  <path stroke="#2fd0aa" stroke-width="12" stroke-linecap="round" d="M418 102h220M510 102v44M638 102l-62 34" />
+  <path fill="#11434e" d="M562 146h42v20h-42z" />
+</svg>

@@ -1,6 +1,6 @@
 const translations = {
   id: {
-    brandTagline: "Profil Perusahaan",
+    brandTagline: "(NJB) Profil Perusahaan",
     navAbout: "Tentang",
     navServices: "Layanan",
     navWork: "Portofolio",
@@ -8,13 +8,13 @@ const translations = {
     heroEyebrow: "Profil Perusahaan",
     heroTitle: "Mitra konstruksi terpercaya untuk membangun ruang yang kuat dan bernilai.",
     heroLead:
-      "PT NJB menghadirkan layanan konstruksi, renovasi, dan dukungan proyek dengan standar keselamatan, mutu pekerjaan, dan koordinasi lapangan yang profesional.",
+      "PT Nusantara Jaya Berkarya (NJB) menghadirkan layanan konstruksi, renovasi, dan dukungan proyek dengan standar keselamatan, mutu pekerjaan, dan koordinasi lapangan yang profesional.",
     heroPrimary: "Diskusikan Proyek",
     heroSecondary: "Lihat Layanan",
     trustOne: "Safety First",
     trustTwo: "Mutu Terjaga",
     trustThree: "Tepat Sasaran",
-    heroCardLabel: "PT NJB sekilas",
+    heroCardLabel: "NJB sekilas",
     heroCardTitle: "Konstruksi rapi, terukur, dan siap mendukung pertumbuhan bisnis.",
     metricOne: "Pilar Konstruksi",
     metricTwo: "Koordinasi Lapangan",
@@ -23,7 +23,7 @@ const translations = {
     aboutTitle: "Perusahaan konstruksi yang mengutamakan kualitas, keselamatan, dan ketepatan eksekusi.",
     aboutCardOneTitle: "Siapa Kami",
     aboutCardOneBody:
-      "PT NJB adalah perusahaan konstruksi yang mendukung pekerjaan bangunan, infrastruktur, renovasi, dan fit-out dengan pendekatan profesional.",
+      "PT Nusantara Jaya Berkarya (NJB) adalah perusahaan konstruksi yang mendukung pekerjaan bangunan, infrastruktur, renovasi, dan fit-out dengan pendekatan profesional.",
     aboutCardTwoTitle: "Standar Kerja",
     aboutCardTwoBody:
       "Kami menggabungkan perencanaan teknis, pengawasan lapangan, kontrol material, dan komunikasi progres agar pekerjaan berjalan terkendali.",
@@ -34,14 +34,14 @@ const translations = {
     servicesTitle: "Layanan konstruksi terpadu dari perencanaan hingga serah terima.",
     processEyebrow: "Proses Kerja",
     processTitle: "Alur kerja profesional untuk menjaga kualitas setiap tahap proyek.",
-    workEyebrow: "Ruang Lingkup",
-    workTitle: "Fokus pada pekerjaan konstruksi yang fungsional, aman, dan tahan lama.",
+    workEyebrow: "Portofolio Proyek",
+    workTitle: "Referensi pekerjaan konstruksi dan pengembangan ruang yang dapat ditangani NJB.",
     valuesEyebrow: "Nilai Perusahaan",
     valuesTitle: "Fondasi kerja yang menjaga mutu proyek dan kepercayaan klien.",
     contactEyebrow: "Hubungi Kami",
     contactTitle: "Mari bicarakan kebutuhan konstruksi Anda.",
     contactBody:
-      "Kirim ringkasan proyek, lokasi, dan kebutuhan pekerjaan Anda. Tim PT NJB akan menindaklanjuti dengan pendekatan yang sesuai.",
+      "Kirim ringkasan proyek, lokasi, dan kebutuhan pekerjaan Anda. Tim PT Nusantara Jaya Berkarya (NJB) akan menindaklanjuti dengan pendekatan yang sesuai.",
     contactEmail: "info@pt-njb.co.id",
     contactWebsite: "pt-njb.vercel.app",
     formName: "Nama",
@@ -100,37 +100,49 @@ const translations = {
         category: "building",
         title: "Pembangunan Gedung dan Fasilitas",
         body: "Pekerjaan konstruksi bangunan untuk kebutuhan operasional, komersial, dan fasilitas pendukung.",
-        color: "#dff4ff"
+        color: "#dff4ff",
+        image: "/assets/portfolio-building.svg",
+        imageAlt: "Ilustrasi pembangunan gedung dan fasilitas"
       },
       {
         category: "infrastructure",
         title: "Pekerjaan Sipil dan Infrastruktur",
         body: "Dukungan pekerjaan sipil, akses, utilitas, dan area pendukung agar fasilitas berfungsi optimal.",
-        color: "#e4fbf2"
+        color: "#e4fbf2",
+        image: "/assets/portfolio-infrastructure.svg",
+        imageAlt: "Ilustrasi pekerjaan sipil dan infrastruktur"
       },
       {
         category: "renovation",
         title: "Renovasi Kantor dan Ruang Usaha",
         body: "Pembaruan layout, finishing, dan fungsi ruang untuk menciptakan lingkungan kerja yang lebih produktif.",
-        color: "#fff4d8"
+        color: "#fff4d8",
+        image: "/assets/portfolio-renovation.svg",
+        imageAlt: "Ilustrasi renovasi kantor dan ruang usaha"
       },
       {
         category: "building",
         title: "Pekerjaan Struktur dan Arsitektur",
         body: "Eksekusi detail struktur, dinding, lantai, atap, dan elemen arsitektur sesuai kebutuhan proyek.",
-        color: "#e7e9ff"
+        color: "#e7e9ff",
+        image: "/assets/portfolio-structure.svg",
+        imageAlt: "Ilustrasi pekerjaan struktur dan arsitektur"
       },
       {
         category: "infrastructure",
         title: "Area Pendukung dan Site Development",
         body: "Penataan area luar, drainase, akses kerja, dan fasilitas pendukung untuk kelancaran operasional.",
-        color: "#e0f7fa"
+        color: "#e0f7fa",
+        image: "/assets/portfolio-site-development.svg",
+        imageAlt: "Ilustrasi area pendukung dan site development"
       },
       {
         category: "renovation",
         title: "Fit-Out dan Finishing Interior",
         body: "Pekerjaan finishing interior yang memperhatikan detail, kenyamanan, dan kesiapan penggunaan ruang.",
-        color: "#ffe6e6"
+        color: "#ffe6e6",
+        image: "/assets/portfolio-fitout.svg",
+        imageAlt: "Ilustrasi fit-out dan finishing interior"
       }
     ],
     values: [
@@ -141,7 +153,7 @@ const translations = {
     ]
   },
   en: {
-    brandTagline: "Company Profile",
+    brandTagline: "(NJB) Company Profile",
     navAbout: "About",
     navServices: "Services",
     navWork: "Portfolio",
@@ -149,13 +161,13 @@ const translations = {
     heroEyebrow: "Company Profile",
     heroTitle: "A trusted construction partner for durable, functional, and valuable spaces.",
     heroLead:
-      "PT NJB delivers construction, renovation, and project support services with professional safety standards, workmanship quality, and field coordination.",
+      "PT Nusantara Jaya Berkarya (NJB) delivers construction, renovation, and project support services with professional safety standards, workmanship quality, and field coordination.",
     heroPrimary: "Discuss Your Project",
     heroSecondary: "Explore Services",
     trustOne: "Safety First",
     trustTwo: "Quality Driven",
     trustThree: "Project Focused",
-    heroCardLabel: "PT NJB at a glance",
+    heroCardLabel: "NJB at a glance",
     heroCardTitle: "Clean, measurable construction ready to support business growth.",
     metricOne: "Construction Pillars",
     metricTwo: "Field Coordination",
@@ -164,7 +176,7 @@ const translations = {
     aboutTitle: "A construction company focused on quality, safety, and precise execution.",
     aboutCardOneTitle: "Who We Are",
     aboutCardOneBody:
-      "PT NJB is a construction company supporting building works, infrastructure, renovation, and fit-out projects with a professional approach.",
+      "PT Nusantara Jaya Berkarya (NJB) is a construction company supporting building works, infrastructure, renovation, and fit-out projects with a professional approach.",
     aboutCardTwoTitle: "Work Standards",
     aboutCardTwoBody:
       "We combine technical planning, field supervision, material control, and progress communication to keep every project well managed.",
@@ -175,14 +187,14 @@ const translations = {
     servicesTitle: "Integrated construction services from planning to handover.",
     processEyebrow: "Work Process",
     processTitle: "A professional workflow to maintain quality at every project stage.",
-    workEyebrow: "Scope of Work",
-    workTitle: "Focused on construction work that is functional, safe, and durable.",
+    workEyebrow: "Project Portfolio",
+    workTitle: "References for construction and space development work that NJB can handle.",
     valuesEyebrow: "Company Values",
     valuesTitle: "The work foundation that protects project quality and client trust.",
     contactEyebrow: "Contact Us",
     contactTitle: "Let's discuss your construction needs.",
     contactBody:
-      "Send a short summary of your project, location, and work requirements. The PT NJB team will follow up with the right approach.",
+      "Send a short summary of your project, location, and work requirements. The PT Nusantara Jaya Berkarya (NJB) team will follow up with the right approach.",
     contactEmail: "info@pt-njb.co.id",
     contactWebsite: "pt-njb.vercel.app",
     formName: "Name",
@@ -241,37 +253,49 @@ const translations = {
         category: "building",
         title: "Buildings and Facilities",
         body: "Construction work for operational, commercial, and supporting facility needs.",
-        color: "#dff4ff"
+        color: "#dff4ff",
+        image: "/assets/portfolio-building.svg",
+        imageAlt: "Building and facility construction illustration"
       },
       {
         category: "infrastructure",
         title: "Civil and Infrastructure Works",
         body: "Civil works, access, utilities, and supporting areas to help facilities operate effectively.",
-        color: "#e4fbf2"
+        color: "#e4fbf2",
+        image: "/assets/portfolio-infrastructure.svg",
+        imageAlt: "Civil and infrastructure works illustration"
       },
       {
         category: "renovation",
         title: "Office and Business Space Renovation",
         body: "Layout, finishing, and functional upgrades that create more productive working environments.",
-        color: "#fff4d8"
+        color: "#fff4d8",
+        image: "/assets/portfolio-renovation.svg",
+        imageAlt: "Office and business space renovation illustration"
       },
       {
         category: "building",
         title: "Structural and Architectural Works",
         body: "Detailed execution for structure, walls, flooring, roofing, and architectural elements.",
-        color: "#e7e9ff"
+        color: "#e7e9ff",
+        image: "/assets/portfolio-structure.svg",
+        imageAlt: "Structural and architectural works illustration"
       },
       {
         category: "infrastructure",
         title: "Site Development and Support Areas",
         body: "Outdoor area arrangement, drainage, work access, and supporting facilities for smooth operations.",
-        color: "#e0f7fa"
+        color: "#e0f7fa",
+        image: "/assets/portfolio-site-development.svg",
+        imageAlt: "Site development and support areas illustration"
       },
       {
         category: "renovation",
         title: "Fit-Out and Interior Finishing",
         body: "Interior finishing that emphasizes detail, comfort, and readiness for use.",
-        color: "#ffe6e6"
+        color: "#ffe6e6",
+        image: "/assets/portfolio-fitout.svg",
+        imageAlt: "Fit-out and interior finishing illustration"
       }
     ],
     values: [
@@ -295,7 +319,10 @@ function setLanguage(lang) {
   state.lang = lang;
   localStorage.setItem("pt-njb-language", lang);
   document.documentElement.lang = lang;
-  document.title = lang === "id" ? "PT NJB | Profil Perusahaan" : "PT NJB | Company Profile";
+  document.title =
+    lang === "id"
+      ? "PT Nusantara Jaya Berkarya (NJB) | Profil Perusahaan"
+      : "PT Nusantara Jaya Berkarya (NJB) | Company Profile";
 
   $$("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
@@ -355,9 +382,14 @@ function renderDynamicSections() {
     .map(
       (item) => `
         <article class="portfolio-card reveal" style="--card-bg: ${item.color}">
-          <span class="tag">${content.filters[item.category]}</span>
-          <h3>${item.title}</h3>
-          <p>${item.body}</p>
+          <figure class="portfolio-media">
+            <img src="${item.image}" alt="${item.imageAlt}" loading="lazy" />
+          </figure>
+          <div class="portfolio-content">
+            <span class="tag">${content.filters[item.category]}</span>
+            <h3>${item.title}</h3>
+            <p>${item.body}</p>
+          </div>
         </article>
       `
     )
@@ -497,7 +529,7 @@ function bindEvents() {
       return;
     }
 
-    const subject = encodeURIComponent(`PT NJB inquiry from ${name}`);
+    const subject = encodeURIComponent(`PT Nusantara Jaya Berkarya (NJB) inquiry from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
     note.textContent = content.formReady;
     window.location.href = `mailto:info@pt-njb.co.id?subject=${subject}&body=${body}`;

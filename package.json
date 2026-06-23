@@ -2,7 +2,7 @@
   "name": "pt-njb-profile",
   "version": "1.0.0",
   "private": true,
-  "description": "Bilingual company profile website for PT NJB.",
+  "description": "Bilingual company profile website for PT Nusantara Jaya Berkarya (NJB).",
   "scripts": {
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
@@ -13,6 +13,6 @@
     "pt-njb",
     "vercel"
   ],
-  "author": "PT NJB",
+  "author": "PT Nusantara Jaya Berkarya (NJB)",
   "license": "UNLICENSED"
 }

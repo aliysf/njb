@@ -1,12 +1,12 @@
-# PT NJB Company Profile Website
+# PT Nusantara Jaya Berkarya (NJB) Company Profile Website
 
-Responsive bilingual construction company profile website for PT NJB, designed as a static site for Vercel.
+Responsive bilingual construction company profile website for PT Nusantara Jaya Berkarya (NJB), designed as a static site for Vercel.
 
 ## Features
 
 - Indonesian and English language switcher with browser persistence
 - Mobile-friendly sticky navigation and responsive sections
-- Interactive construction service cards, animated counters, portfolio filters, and contact form
+- Interactive construction service cards, animated counters, image-based portfolio filters, and contact form
 - Static build output for Vercel deployment
 
 ## Local development
@@ -24,7 +24,7 @@ npm run preview
 
 ## Updating content
 
-Most website copy is managed in `public/app.js` inside the `translations` object. Update the Indonesian (`id`) and English (`en`) sections there when official construction project details or profile content are available.
+Most website copy is managed in `public/app.js` inside the `translations` object. Update the Indonesian (`id`) and English (`en`) sections there when official construction project details, PDF portfolio content, or profile content are available.
 
 ## Vercel
 

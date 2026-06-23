@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fit-out and finishing</title>
+  <desc id="desc">Interior fit-out and finishing work with ceiling, wall, and furniture details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe6e6" />
+      <stop offset="1" stop-color="#e8fff8" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)" />
+  <path fill="#ffffff" d="M92 72h536v276H92z" />
+  <path fill="#e6f6f2" d="M132 116h206v176H132z" />
+  <path fill="#f8fbfa" stroke="#11434e" stroke-width="10" d="M382 116h206v176H382z" />
+  <path stroke="#11434e" stroke-width="10" stroke-linecap="round" d="M132 320h456M166 148h138M166 190h138M166 232h88" />
+  <path fill="#11434e" d="M410 246h148v46H410z" />
+  <path fill="#2fd0aa" d="M432 166h38v80h-38zM496 146h38v100h-38z" opacity=".85" />
+  <path fill="#ffffff" stroke="#11434e" stroke-width="8" d="M118 92h486v28H118z" />
+  <path stroke="#2fd0aa" stroke-width="8" stroke-linecap="round" d="M158 92v-28M238 92v-28M318 92v-28M398 92v-28M478 92v-28M558 92v-28" />
+</svg>
