@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Profil perusahaan bilingual PT NJB dengan layanan profesional, nilai perusahaan, portofolio, dan kontak."
+    />
+    <meta name="theme-color" content="#0f4c81" />
+    <meta property="og:title" content="PT NJB | Company Profile" />
+    <meta
+      property="og:description"
+      content="Company profile website for PT NJB, available in Indonesian and English."
+    />
+    <meta property="og:type" content="website" />
+    <title>PT NJB | Company Profile</title>
+    <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" data-header>
+        <a class="brand" href="#home" aria-label="PT NJB home">
+          <img src="/assets/logo.svg" width="44" height="44" alt="" />
+          <span>
+            <strong>PT NJB</strong>
+            <small data-i18n="brandTagline">Company Profile</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-nav>
+          <a href="#about" data-i18n="navAbout">Tentang</a>
+          <a href="#services" data-i18n="navServices">Layanan</a>
+          <a href="#work" data-i18n="navWork">Portofolio</a>
+          <a href="#contact" data-i18n="navContact">Kontak</a>
+        </nav>
+
+        <div class="language-switch" role="group" aria-label="Language selector">
+          <button type="button" class="active" data-lang="id">ID</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section-pad" id="home">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" data-i18n="heroEyebrow">Profil Perusahaan</p>
+            <h1 data-i18n="heroTitle">Mitra terpercaya untuk solusi bisnis yang tangguh dan berkelanjutan.</h1>
+            <p class="hero-lede" data-i18n="heroLead">
+              PT NJB membantu organisasi bergerak lebih cepat melalui layanan profesional, tata kelola rapi,
+              dan eksekusi proyek yang terukur.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contact" data-i18n="heroPrimary">Konsultasi Sekarang</a>
+              <a class="button ghost" href="#services" data-i18n="heroSecondary">Lihat Layanan</a>
+            </div>
+            <div class="trust-strip" aria-label="Company highlights">
+              <span data-i18n="trustOne">Responsif</span>
+              <span data-i18n="trustTwo">Profesional</span>
+              <span data-i18n="trustThree">Berorientasi Hasil</span>
+            </div>
+          </div>
+
+          <div class="hero-card reveal">
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+            <div class="profile-card">
+              <span class="card-label" data-i18n="heroCardLabel">PT NJB at a glance</span>
+              <h2 data-i18n="heroCardTitle">Building value through reliable execution.</h2>
+              <div class="metric-grid">
+                <article>
+                  <strong data-count-to="3">0</strong>
+                  <span data-i18n="metricOne">Pilar Layanan</span>
+                </article>
+                <article>
+                  <strong data-count-to="24">0</strong>
+                  <span data-i18n="metricTwo">Support Hours</span>
+                </article>
+                <article>
+                  <strong data-count-to="100">0</strong>
+                  <span data-i18n="metricThree">Commitment</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad about" id="about">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="aboutEyebrow">Tentang Kami</p>
+            <h2 data-i18n="aboutTitle">Perusahaan yang dirancang untuk bergerak adaptif, akurat, dan transparan.</h2>
+          </div>
+          <div class="about-grid">
+            <article class="glass-card reveal">
+              <h3 data-i18n="aboutCardOneTitle">Siapa Kami</h3>
+              <p data-i18n="aboutCardOneBody">
+                PT NJB adalah mitra usaha yang berfokus pada layanan bisnis, pengadaan, dan dukungan proyek
+                dengan pendekatan kolaboratif.
+              </p>
+            </article>
+            <article class="glass-card reveal">
+              <h3 data-i18n="aboutCardTwoTitle">Cara Kerja</h3>
+              <p data-i18n="aboutCardTwoBody">
+                Kami menggabungkan perencanaan yang jelas, koordinasi intensif, dan pemantauan kinerja agar
+                setiap kebutuhan klien tertangani tepat sasaran.
+              </p>
+            </article>
+            <article class="glass-card accent-card reveal">
+              <h3 data-i18n="aboutCardThreeTitle">Komitmen</h3>
+              <p data-i18n="aboutCardThreeBody">
+                Menghadirkan solusi yang dapat diandalkan, mudah diukur, dan berorientasi pada hubungan jangka panjang.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-pad services" id="services">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="servicesEyebrow">Layanan</p>
+            <h2 data-i18n="servicesTitle">Dukungan lengkap dari strategi hingga operasional.</h2>
+          </div>
+          <div class="service-grid" data-service-grid></div>
+        </section>
+
+        <section class="section-pad process">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="processEyebrow">Proses Kerja</p>
+            <h2 data-i18n="processTitle">Langkah sederhana untuk hasil yang lebih terukur.</h2>
+          </div>
+          <div class="timeline" data-timeline></div>
+        </section>
+
+        <section class="section-pad work" id="work">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="workEyebrow">Fokus Industri</p>
+            <h2 data-i18n="workTitle">Fleksibel untuk berbagai kebutuhan bisnis dan proyek.</h2>
+          </div>
+          <div class="filter-bar" role="tablist" aria-label="Portfolio filters" data-filter-bar></div>
+          <div class="portfolio-grid" data-portfolio-grid></div>
+        </section>
+
+        <section class="section-pad values">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="valuesEyebrow">Nilai Perusahaan</p>
+            <h2 data-i18n="valuesTitle">Fondasi kerja yang menjaga kepercayaan klien.</h2>
+          </div>
+          <div class="values-grid" data-values-grid></div>
+        </section>
+
+        <section class="section-pad faq">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="faqEyebrow">Pertanyaan Umum</p>
+            <h2 data-i18n="faqTitle">Informasi cepat sebelum memulai diskusi.</h2>
+          </div>
+          <div class="faq-list" data-faq-list></div>
+        </section>
+
+        <section class="section-pad contact" id="contact">
+          <div class="contact-panel reveal">
+            <div>
+              <p class="eyebrow" data-i18n="contactEyebrow">Hubungi Kami</p>
+              <h2 data-i18n="contactTitle">Mari bicarakan kebutuhan perusahaan Anda.</h2>
+              <p data-i18n="contactBody">
+                Kirim ringkasan kebutuhan Anda, dan tim PT NJB akan menindaklanjuti dengan pendekatan yang sesuai.
+              </p>
+              <div class="contact-links">
+                <a href="mailto:info@pt-njb.co.id" data-i18n="contactEmail">info@pt-njb.co.id</a>
+                <a href="https://pt-njb.vercel.app" data-i18n="contactWebsite">pt-njb.vercel.app</a>
+              </div>
+            </div>
+            <form class="contact-form" data-contact-form>
+              <label>
+                <span data-i18n="formName">Nama</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span data-i18n="formMessage">Pesan</span>
+                <textarea name="message" rows="4" required></textarea>
+              </label>
+              <button class="button primary" type="submit" data-i18n="formSubmit">Kirim Pesan</button>
+              <p class="form-note" data-form-note></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span data-year></span> PT NJB. <span data-i18n="footerRights">All rights reserved.</span></p>
+        <a href="#home" data-i18n="footerBack">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
