@@ -24,7 +24,7 @@ npm run preview
 
 ## Updating content
 
-Most website copy is managed in `public/app.js` inside the `translations` object. Update the Indonesian (`id`) and English (`en`) sections there when official construction project details, PDF portfolio content, or profile content are available.
+Most website copy is managed in `public/app.js` inside the `translations` object. The portfolio section uses project names, scopes, and extracted images from the uploaded PT Nusantara Jaya Berkarya company profile PDF.
 
 ## Vercel
 

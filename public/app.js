@@ -35,7 +35,7 @@ const translations = {
     processEyebrow: "Proses Kerja",
     processTitle: "Alur kerja profesional untuk menjaga kualitas setiap tahap proyek.",
     workEyebrow: "Portofolio Proyek",
-    workTitle: "Referensi pekerjaan konstruksi dan pengembangan ruang yang dapat ditangani NJB.",
+    workTitle: "Portofolio pekerjaan berdasarkan dokumen company profile PT Nusantara Jaya Berkarya (NJB).",
     valuesEyebrow: "Nilai Perusahaan",
     valuesTitle: "Fondasi kerja yang menjaga mutu proyek dan kepercayaan klien.",
     contactEyebrow: "Hubungi Kami",
@@ -54,8 +54,9 @@ const translations = {
     filters: {
       all: "Semua",
       building: "Bangunan",
-      infrastructure: "Infrastruktur",
-      renovation: "Renovasi"
+      mep: "MEP",
+      interior: "Interior",
+      infrastructure: "Infrastruktur"
     },
     services: [
       {
@@ -97,52 +98,124 @@ const translations = {
     ],
     portfolio: [
       {
-        category: "building",
-        title: "Pembangunan Gedung dan Fasilitas",
-        body: "Pekerjaan konstruksi bangunan untuk kebutuhan operasional, komersial, dan fasilitas pendukung.",
+        category: "mep",
+        title: "Kejaksaan Tinggi DKI Jakarta",
+        body: "Perawatan peralatan mekanikal, elektrikal, elektronik, plambing, special lighting, HVAC VRV, BAS, dan pekerjaan akses jalan kendaraan.",
         color: "#dff4ff",
-        image: "/assets/portfolio-building.svg",
-        imageAlt: "Ilustrasi pembangunan gedung dan fasilitas"
-      },
-      {
-        category: "infrastructure",
-        title: "Pekerjaan Sipil dan Infrastruktur",
-        body: "Dukungan pekerjaan sipil, akses, utilitas, dan area pendukung agar fasilitas berfungsi optimal.",
-        color: "#e4fbf2",
-        image: "/assets/portfolio-infrastructure.svg",
-        imageAlt: "Ilustrasi pekerjaan sipil dan infrastruktur"
-      },
-      {
-        category: "renovation",
-        title: "Renovasi Kantor dan Ruang Usaha",
-        body: "Pembaruan layout, finishing, dan fungsi ruang untuk menciptakan lingkungan kerja yang lebih produktif.",
-        color: "#fff4d8",
-        image: "/assets/portfolio-renovation.svg",
-        imageAlt: "Ilustrasi renovasi kantor dan ruang usaha"
+        image: "/assets/pdf-portfolio/pdf-page-12-image-02.png",
+        imageAlt: "Gedung Kejaksaan Tinggi DKI Jakarta"
       },
       {
         category: "building",
-        title: "Pekerjaan Struktur dan Arsitektur",
-        body: "Eksekusi detail struktur, dinding, lantai, atap, dan elemen arsitektur sesuai kebutuhan proyek.",
+        title: "Rumah K-10 Kalibata",
+        body: "Pekerjaan bangunan sipil, finishing basement, instalasi elektrikal, elektronik, pemadam kebakaran, serta instalasi dan pengadaan HVAC.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-12-image-01.png",
+        imageAlt: "Rumah K-10 Kalibata"
+      },
+      {
+        category: "building",
+        title: "RSUP Persahabatan",
+        body: "Pekerjaan renovasi lima gedung, landscape, pengaspalan jalan, penerangan jalan, instalasi elektrikal, plambing, dan HVAC central.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-13-image-02.png",
+        imageAlt: "Gedung RSUP Persahabatan"
+      },
+      {
+        category: "mep",
+        title: "RS Hasan Sadikin Bandung",
+        body: "Overhaul genset 1.000 kVA dan perbaikan motor pompa untuk mendukung operasional fasilitas rumah sakit.",
         color: "#e7e9ff",
-        image: "/assets/portfolio-structure.svg",
-        imageAlt: "Ilustrasi pekerjaan struktur dan arsitektur"
+        image: "/assets/pdf-portfolio/pdf-page-13-image-03.png",
+        imageAlt: "Gedung RS Hasan Sadikin Bandung"
+      },
+      {
+        category: "interior",
+        title: "RSUD Pasar Rebo",
+        body: "Pekerjaan interior ruang rawat inap, waterproofing gedung, instalasi plambing, roof tank, dan papan nama instansi.",
+        color: "#e0f7fa",
+        image: "/assets/pdf-portfolio/pdf-page-14-image-04.png",
+        imageAlt: "Gedung RSUD Pasar Rebo"
+      },
+      {
+        category: "building",
+        title: "Asrama Haji Pondok Gede",
+        body: "Pekerjaan renovasi gedung dan pemasangan ACP untuk peningkatan kualitas tampilan serta fungsi bangunan.",
+        color: "#ffe6e6",
+        image: "/assets/pdf-portfolio/pdf-page-14-image-03.png",
+        imageAlt: "Gedung Asrama Haji Pondok Gede"
+      },
+      {
+        category: "mep",
+        title: "Dinas Tata Ruang dan Pertanahan DKI Jakarta",
+        body: "Pekerjaan special lighting, elektrikal, elektronik, hydrant, dan tata udara.",
+        color: "#dff4ff",
+        image: "/assets/pdf-portfolio/pdf-page-15-image-03.png",
+        imageAlt: "Gedung Dinas Tata Ruang dan Pertanahan DKI Jakarta"
+      },
+      {
+        category: "mep",
+        title: "Taman Safari Indonesia",
+        body: "Pekerjaan fire alarm untuk mendukung sistem keselamatan fasilitas.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-15-image-02.png",
+        imageAlt: "Taman Safari Indonesia Bogor"
+      },
+      {
+        category: "building",
+        title: "RS Bhayangkara TK.I Pusdokkes Polri",
+        body: "Pekerjaan renovasi gedung untuk peningkatan fasilitas layanan rumah sakit.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-16-image-02.png",
+        imageAlt: "Gedung RS Bhayangkara TK.I Pusdokkes Polri"
+      },
+      {
+        category: "mep",
+        title: "RSUD Mampang Prapatan",
+        body: "Pekerjaan HVAC untuk mendukung kenyamanan dan performa sistem tata udara gedung.",
+        color: "#e7e9ff",
+        image: "/assets/pdf-portfolio/pdf-page-16-image-01.png",
+        imageAlt: "Gedung RSUD Mampang Prapatan"
+      },
+      {
+        category: "interior",
+        title: "Rumah Dinas Wakil Gubernur DKI Jakarta",
+        body: "Pekerjaan interior eksklusif untuk kebutuhan ruang representatif dan fungsional.",
+        color: "#e0f7fa",
+        image: "/assets/pdf-portfolio/pdf-page-17-image-03.png",
+        imageAlt: "Rumah Dinas Wakil Gubernur DKI Jakarta"
+      },
+      {
+        category: "mep",
+        title: "Kantor Walikota Jakarta Utara",
+        body: "Pekerjaan maintenance lift untuk menjaga keandalan transportasi vertikal gedung.",
+        color: "#ffe6e6",
+        image: "/assets/pdf-portfolio/pdf-page-17-image-02.png",
+        imageAlt: "Kantor Walikota Jakarta Utara"
+      },
+      {
+        category: "mep",
+        title: "Kantor Kecamatan Kebayoran Baru",
+        body: "Pekerjaan instalasi mekanikal, elektrikal, dan plambing (MEP).",
+        color: "#dff4ff",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-02.png",
+        imageAlt: "Kantor Kecamatan Kebayoran Baru"
       },
       {
         category: "infrastructure",
-        title: "Area Pendukung dan Site Development",
-        body: "Penataan area luar, drainase, akses kerja, dan fasilitas pendukung untuk kelancaran operasional.",
-        color: "#e0f7fa",
-        image: "/assets/portfolio-site-development.svg",
-        imageAlt: "Ilustrasi area pendukung dan site development"
+        title: "Suku Dinas Lingkungan Hidup Jakarta Utara",
+        body: "Pekerjaan peningkatan TPS menjadi TPS 3R Ancol.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-03.png",
+        imageAlt: "Pekerjaan peningkatan TPS menjadi TPS 3R Ancol"
       },
       {
-        category: "renovation",
-        title: "Fit-Out dan Finishing Interior",
-        body: "Pekerjaan finishing interior yang memperhatikan detail, kenyamanan, dan kesiapan penggunaan ruang.",
-        color: "#ffe6e6",
-        image: "/assets/portfolio-fitout.svg",
-        imageAlt: "Ilustrasi fit-out dan finishing interior"
+        category: "infrastructure",
+        title: "Suku Dinas Lingkungan Hidup Jakarta Selatan",
+        body: "Pekerjaan pembangunan hanggar di Jalan Kemang Utara.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-04.png",
+        imageAlt: "Pekerjaan pembangunan hanggar Jalan Kemang Utara"
       }
     ],
     values: [
@@ -188,7 +261,7 @@ const translations = {
     processEyebrow: "Work Process",
     processTitle: "A professional workflow to maintain quality at every project stage.",
     workEyebrow: "Project Portfolio",
-    workTitle: "References for construction and space development work that NJB can handle.",
+    workTitle: "Project portfolio based on the PT Nusantara Jaya Berkarya (NJB) company profile document.",
     valuesEyebrow: "Company Values",
     valuesTitle: "The work foundation that protects project quality and client trust.",
     contactEyebrow: "Contact Us",
@@ -207,8 +280,9 @@ const translations = {
     filters: {
       all: "All",
       building: "Building",
-      infrastructure: "Infrastructure",
-      renovation: "Renovation"
+      mep: "MEP",
+      interior: "Interior",
+      infrastructure: "Infrastructure"
     },
     services: [
       {
@@ -250,52 +324,124 @@ const translations = {
     ],
     portfolio: [
       {
-        category: "building",
-        title: "Buildings and Facilities",
-        body: "Construction work for operational, commercial, and supporting facility needs.",
+        category: "mep",
+        title: "Jakarta High Prosecutor's Office",
+        body: "Mechanical, electrical, electronic, plumbing, special lighting, HVAC VRV, BAS maintenance, and vehicle access road works.",
         color: "#dff4ff",
-        image: "/assets/portfolio-building.svg",
-        imageAlt: "Building and facility construction illustration"
-      },
-      {
-        category: "infrastructure",
-        title: "Civil and Infrastructure Works",
-        body: "Civil works, access, utilities, and supporting areas to help facilities operate effectively.",
-        color: "#e4fbf2",
-        image: "/assets/portfolio-infrastructure.svg",
-        imageAlt: "Civil and infrastructure works illustration"
-      },
-      {
-        category: "renovation",
-        title: "Office and Business Space Renovation",
-        body: "Layout, finishing, and functional upgrades that create more productive working environments.",
-        color: "#fff4d8",
-        image: "/assets/portfolio-renovation.svg",
-        imageAlt: "Office and business space renovation illustration"
+        image: "/assets/pdf-portfolio/pdf-page-12-image-02.png",
+        imageAlt: "Jakarta High Prosecutor's Office building"
       },
       {
         category: "building",
-        title: "Structural and Architectural Works",
-        body: "Detailed execution for structure, walls, flooring, roofing, and architectural elements.",
+        title: "K-10 Kalibata House",
+        body: "Civil building works, basement finishing, electrical, electronic, fire protection, HVAC installation, and HVAC procurement.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-12-image-01.png",
+        imageAlt: "K-10 Kalibata House"
+      },
+      {
+        category: "building",
+        title: "RSUP Persahabatan",
+        body: "Renovation of five buildings, landscape works, road asphalt, street lighting, electrical, plumbing, and central HVAC installation.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-13-image-02.png",
+        imageAlt: "RSUP Persahabatan building"
+      },
+      {
+        category: "mep",
+        title: "RS Hasan Sadikin Bandung",
+        body: "1,000 kVA generator overhaul and pump motor repair to support hospital facility operations.",
         color: "#e7e9ff",
-        image: "/assets/portfolio-structure.svg",
-        imageAlt: "Structural and architectural works illustration"
+        image: "/assets/pdf-portfolio/pdf-page-13-image-03.png",
+        imageAlt: "RS Hasan Sadikin Bandung building"
+      },
+      {
+        category: "interior",
+        title: "RSUD Pasar Rebo",
+        body: "Inpatient room interior works, building waterproofing, plumbing installation, roof tank, and institutional signage.",
+        color: "#e0f7fa",
+        image: "/assets/pdf-portfolio/pdf-page-14-image-04.png",
+        imageAlt: "RSUD Pasar Rebo building"
+      },
+      {
+        category: "building",
+        title: "Pondok Gede Hajj Dormitory",
+        body: "Building renovation and ACP installation to improve facade quality and building functionality.",
+        color: "#ffe6e6",
+        image: "/assets/pdf-portfolio/pdf-page-14-image-03.png",
+        imageAlt: "Pondok Gede Hajj Dormitory building"
+      },
+      {
+        category: "mep",
+        title: "Jakarta Spatial Planning and Land Office",
+        body: "Special lighting, electrical, electronic, hydrant, and air conditioning works.",
+        color: "#dff4ff",
+        image: "/assets/pdf-portfolio/pdf-page-15-image-03.png",
+        imageAlt: "Jakarta Spatial Planning and Land Office building"
+      },
+      {
+        category: "mep",
+        title: "Taman Safari Indonesia",
+        body: "Fire alarm works to support facility safety systems.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-15-image-02.png",
+        imageAlt: "Taman Safari Indonesia Bogor"
+      },
+      {
+        category: "building",
+        title: "RS Bhayangkara TK.I Pusdokkes Polri",
+        body: "Building renovation works to improve hospital service facilities.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-16-image-02.png",
+        imageAlt: "RS Bhayangkara TK.I Pusdokkes Polri building"
+      },
+      {
+        category: "mep",
+        title: "RSUD Mampang Prapatan",
+        body: "HVAC works to support comfort and air-conditioning system performance.",
+        color: "#e7e9ff",
+        image: "/assets/pdf-portfolio/pdf-page-16-image-01.png",
+        imageAlt: "RSUD Mampang Prapatan building"
+      },
+      {
+        category: "interior",
+        title: "Official Residence of the Deputy Governor of DKI Jakarta",
+        body: "Exclusive interior works for representative and functional spaces.",
+        color: "#e0f7fa",
+        image: "/assets/pdf-portfolio/pdf-page-17-image-03.png",
+        imageAlt: "Official Residence of the Deputy Governor of DKI Jakarta"
+      },
+      {
+        category: "mep",
+        title: "North Jakarta Mayor's Office",
+        body: "Lift maintenance works to keep vertical transportation systems reliable.",
+        color: "#ffe6e6",
+        image: "/assets/pdf-portfolio/pdf-page-17-image-02.png",
+        imageAlt: "North Jakarta Mayor's Office"
+      },
+      {
+        category: "mep",
+        title: "Kebayoran Baru District Office",
+        body: "Mechanical, electrical, and plumbing (MEP) installation works.",
+        color: "#dff4ff",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-02.png",
+        imageAlt: "Kebayoran Baru District Office"
       },
       {
         category: "infrastructure",
-        title: "Site Development and Support Areas",
-        body: "Outdoor area arrangement, drainage, work access, and supporting facilities for smooth operations.",
-        color: "#e0f7fa",
-        image: "/assets/portfolio-site-development.svg",
-        imageAlt: "Site development and support areas illustration"
+        title: "North Jakarta Environmental Agency",
+        body: "Upgrade of TPS into TPS 3R Ancol.",
+        color: "#e4fbf2",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-03.png",
+        imageAlt: "TPS upgrade into TPS 3R Ancol"
       },
       {
-        category: "renovation",
-        title: "Fit-Out and Interior Finishing",
-        body: "Interior finishing that emphasizes detail, comfort, and readiness for use.",
-        color: "#ffe6e6",
-        image: "/assets/portfolio-fitout.svg",
-        imageAlt: "Fit-out and interior finishing illustration"
+        category: "infrastructure",
+        title: "South Jakarta Environmental Agency",
+        body: "Hangar construction works on Jalan Kemang Utara.",
+        color: "#fff4d8",
+        image: "/assets/pdf-portfolio/pdf-page-18-image-04.png",
+        imageAlt: "Hangar construction works on Jalan Kemang Utara"
       }
     ],
     values: [
