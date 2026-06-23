@@ -38,3 +38,11 @@ Use the Vercel project name `pt-njb` to target the production URL:
 ```text
 https://pt-njb.vercel.app
 ```
+
+Recommended deployment flow from an authenticated Vercel CLI session:
+
+```bash
+npx vercel login
+npx vercel link --project pt-njb
+npx vercel --prod
+```
