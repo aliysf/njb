@@ -6,44 +6,42 @@ const translations = {
     navWork: "Portofolio",
     navContact: "Kontak",
     heroEyebrow: "Profil Perusahaan",
-    heroTitle: "Mitra terpercaya untuk solusi bisnis yang tangguh dan berkelanjutan.",
+    heroTitle: "Mitra konstruksi terpercaya untuk membangun ruang yang kuat dan bernilai.",
     heroLead:
-      "PT NJB membantu organisasi bergerak lebih cepat melalui layanan profesional, tata kelola rapi, dan eksekusi proyek yang terukur.",
-    heroPrimary: "Konsultasi Sekarang",
+      "PT NJB menghadirkan layanan konstruksi, renovasi, dan dukungan proyek dengan standar keselamatan, mutu pekerjaan, dan koordinasi lapangan yang profesional.",
+    heroPrimary: "Diskusikan Proyek",
     heroSecondary: "Lihat Layanan",
-    trustOne: "Responsif",
-    trustTwo: "Profesional",
-    trustThree: "Berorientasi Hasil",
+    trustOne: "Safety First",
+    trustTwo: "Mutu Terjaga",
+    trustThree: "Tepat Sasaran",
     heroCardLabel: "PT NJB sekilas",
-    heroCardTitle: "Membangun nilai melalui eksekusi yang dapat diandalkan.",
-    metricOne: "Pilar Layanan",
-    metricTwo: "Jam Dukungan",
-    metricThree: "Komitmen",
+    heroCardTitle: "Konstruksi rapi, terukur, dan siap mendukung pertumbuhan bisnis.",
+    metricOne: "Pilar Konstruksi",
+    metricTwo: "Koordinasi Lapangan",
+    metricThree: "Fokus Mutu",
     aboutEyebrow: "Tentang Kami",
-    aboutTitle: "Perusahaan yang dirancang untuk bergerak adaptif, akurat, dan transparan.",
+    aboutTitle: "Perusahaan konstruksi yang mengutamakan kualitas, keselamatan, dan ketepatan eksekusi.",
     aboutCardOneTitle: "Siapa Kami",
     aboutCardOneBody:
-      "PT NJB adalah mitra usaha yang berfokus pada layanan bisnis, pengadaan, dan dukungan proyek dengan pendekatan kolaboratif.",
-    aboutCardTwoTitle: "Cara Kerja",
+      "PT NJB adalah perusahaan konstruksi yang mendukung pekerjaan bangunan, infrastruktur, renovasi, dan fit-out dengan pendekatan profesional.",
+    aboutCardTwoTitle: "Standar Kerja",
     aboutCardTwoBody:
-      "Kami menggabungkan perencanaan yang jelas, koordinasi intensif, dan pemantauan kinerja agar setiap kebutuhan klien tertangani tepat sasaran.",
+      "Kami menggabungkan perencanaan teknis, pengawasan lapangan, kontrol material, dan komunikasi progres agar pekerjaan berjalan terkendali.",
     aboutCardThreeTitle: "Komitmen",
     aboutCardThreeBody:
-      "Menghadirkan solusi yang dapat diandalkan, mudah diukur, dan berorientasi pada hubungan jangka panjang.",
+      "Menghadirkan hasil konstruksi yang aman, fungsional, rapi, dan dapat dipertanggungjawabkan.",
     servicesEyebrow: "Layanan",
-    servicesTitle: "Dukungan lengkap dari strategi hingga operasional.",
+    servicesTitle: "Layanan konstruksi terpadu dari perencanaan hingga serah terima.",
     processEyebrow: "Proses Kerja",
-    processTitle: "Langkah sederhana untuk hasil yang lebih terukur.",
-    workEyebrow: "Fokus Industri",
-    workTitle: "Fleksibel untuk berbagai kebutuhan bisnis dan proyek.",
+    processTitle: "Alur kerja profesional untuk menjaga kualitas setiap tahap proyek.",
+    workEyebrow: "Ruang Lingkup",
+    workTitle: "Fokus pada pekerjaan konstruksi yang fungsional, aman, dan tahan lama.",
     valuesEyebrow: "Nilai Perusahaan",
-    valuesTitle: "Fondasi kerja yang menjaga kepercayaan klien.",
-    faqEyebrow: "Pertanyaan Umum",
-    faqTitle: "Informasi cepat sebelum memulai diskusi.",
+    valuesTitle: "Fondasi kerja yang menjaga mutu proyek dan kepercayaan klien.",
     contactEyebrow: "Hubungi Kami",
-    contactTitle: "Mari bicarakan kebutuhan perusahaan Anda.",
+    contactTitle: "Mari bicarakan kebutuhan konstruksi Anda.",
     contactBody:
-      "Kirim ringkasan kebutuhan Anda, dan tim PT NJB akan menindaklanjuti dengan pendekatan yang sesuai.",
+      "Kirim ringkasan proyek, lokasi, dan kebutuhan pekerjaan Anda. Tim PT NJB akan menindaklanjuti dengan pendekatan yang sesuai.",
     contactEmail: "info@pt-njb.co.id",
     contactWebsite: "pt-njb.vercel.app",
     formName: "Nama",
@@ -55,107 +53,91 @@ const translations = {
     footerBack: "Kembali ke atas",
     filters: {
       all: "Semua",
-      business: "Bisnis",
-      supply: "Pengadaan",
-      project: "Proyek"
+      building: "Bangunan",
+      infrastructure: "Infrastruktur",
+      renovation: "Renovasi"
     },
     services: [
       {
         icon: "01",
-        title: "Business Support",
-        body: "Dukungan operasional untuk membantu perusahaan menjaga ritme kerja dan kualitas layanan.",
-        points: ["Administrasi bisnis", "Koordinasi vendor", "Dokumentasi dan laporan"]
+        title: "Konstruksi Bangunan",
+        body: "Pelaksanaan pekerjaan bangunan dengan pengawasan lapangan, kontrol mutu, dan koordinasi tenaga kerja yang rapi.",
+        points: ["Pekerjaan struktur dan arsitektur", "Pengawasan mutu pekerjaan", "Koordinasi jadwal proyek"]
       },
       {
         icon: "02",
-        title: "Procurement & Trading",
-        body: "Solusi pengadaan yang menekankan kesesuaian spesifikasi, ketepatan waktu, dan transparansi proses.",
-        points: ["Sourcing kebutuhan", "Perbandingan penawaran", "Kontrol pemenuhan barang"]
+        title: "Renovasi & Fit-Out",
+        body: "Pembaruan ruang komersial, kantor, dan fasilitas dengan hasil yang fungsional, bersih, dan sesuai karakter brand.",
+        points: ["Survey dan perencanaan ruang", "Pekerjaan interior dan finishing", "Serah terima siap pakai"]
       },
       {
         icon: "03",
-        title: "Project Assistance",
-        body: "Pendampingan proyek dari perencanaan awal hingga pelaksanaan agar progres tetap terukur.",
-        points: ["Rencana kerja", "Monitoring progres", "Koordinasi lapangan"]
+        title: "Manajemen Proyek",
+        body: "Pendampingan teknis untuk menjaga progres, biaya, material, dan keselamatan kerja tetap terkendali.",
+        points: ["Rencana kerja dan metode", "Monitoring progres lapangan", "Pelaporan dan dokumentasi"]
       }
     ],
     timeline: [
       {
-        title: "Discovery",
-        body: "Memahami kebutuhan, ruang lingkup, prioritas, dan target hasil bersama klien."
+        title: "Survey Lokasi",
+        body: "Memahami kondisi area, kebutuhan teknis, prioritas pekerjaan, dan target hasil bersama klien."
       },
       {
-        title: "Planning",
-        body: "Menyusun pendekatan, jadwal kerja, dan indikator keberhasilan yang realistis."
+        title: "Perencanaan Teknis",
+        body: "Menyusun metode kerja, jadwal, kebutuhan material, dan standar mutu yang akan digunakan."
       },
       {
-        title: "Execution",
-        body: "Menjalankan pekerjaan dengan koordinasi aktif dan komunikasi yang jelas."
+        title: "Pelaksanaan",
+        body: "Menjalankan pekerjaan dengan pengawasan lapangan, kontrol keselamatan, dan komunikasi progres."
       },
       {
-        title: "Reporting",
-        body: "Menyampaikan progres, evaluasi, dan rekomendasi lanjutan secara transparan."
+        title: "Serah Terima",
+        body: "Melakukan pemeriksaan akhir, dokumentasi, dan serah terima pekerjaan secara transparan."
       }
     ],
     portfolio: [
       {
-        category: "business",
-        title: "Dukungan Operasional Perusahaan",
-        body: "Membantu tim internal merapikan alur kerja, dokumen, dan komunikasi lintas pemangku kepentingan.",
+        category: "building",
+        title: "Pembangunan Gedung dan Fasilitas",
+        body: "Pekerjaan konstruksi bangunan untuk kebutuhan operasional, komersial, dan fasilitas pendukung.",
         color: "#dff4ff"
       },
       {
-        category: "supply",
-        title: "Pengadaan Kebutuhan Bisnis",
-        body: "Mengelola proses pemenuhan kebutuhan dengan perhatian pada kualitas, harga, dan ketepatan waktu.",
+        category: "infrastructure",
+        title: "Pekerjaan Sipil dan Infrastruktur",
+        body: "Dukungan pekerjaan sipil, akses, utilitas, dan area pendukung agar fasilitas berfungsi optimal.",
         color: "#e4fbf2"
       },
       {
-        category: "project",
-        title: "Koordinasi Proyek Lapangan",
-        body: "Menjaga progres aktivitas lapangan melalui koordinasi intensif dan pelaporan berkala.",
+        category: "renovation",
+        title: "Renovasi Kantor dan Ruang Usaha",
+        body: "Pembaruan layout, finishing, dan fungsi ruang untuk menciptakan lingkungan kerja yang lebih produktif.",
         color: "#fff4d8"
       },
       {
-        category: "business",
-        title: "Layanan Administrasi dan Reporting",
-        body: "Menyusun dokumentasi yang rapi agar keputusan bisnis dapat dibuat berdasarkan data yang jelas.",
+        category: "building",
+        title: "Pekerjaan Struktur dan Arsitektur",
+        body: "Eksekusi detail struktur, dinding, lantai, atap, dan elemen arsitektur sesuai kebutuhan proyek.",
         color: "#e7e9ff"
       },
       {
-        category: "supply",
-        title: "Vendor Management",
-        body: "Mendukung proses seleksi, komunikasi, dan evaluasi mitra kerja sesuai kebutuhan klien.",
+        category: "infrastructure",
+        title: "Area Pendukung dan Site Development",
+        body: "Penataan area luar, drainase, akses kerja, dan fasilitas pendukung untuk kelancaran operasional.",
         color: "#e0f7fa"
       },
       {
-        category: "project",
-        title: "Implementasi dan Monitoring",
-        body: "Membantu memastikan rencana berjalan sesuai target melalui pengawasan dan tindak lanjut.",
+        category: "renovation",
+        title: "Fit-Out dan Finishing Interior",
+        body: "Pekerjaan finishing interior yang memperhatikan detail, kenyamanan, dan kesiapan penggunaan ruang.",
         color: "#ffe6e6"
       }
     ],
     values: [
-      { mark: "T", title: "Transparan", body: "Komunikasi terbuka dari awal hingga akhir pekerjaan." },
-      { mark: "A", title: "Akuntabel", body: "Setiap keputusan dan progres memiliki dasar yang jelas." },
-      { mark: "G", title: "Gesit", body: "Cepat menyesuaikan pendekatan terhadap kebutuhan klien." },
-      { mark: "H", title: "Hasil", body: "Fokus pada dampak yang bisa dirasakan dan diukur." }
-    ],
-    faqs: [
-      {
-        question: "Apakah website ini tersedia dalam dua bahasa?",
-        answer: "Ya. Pengunjung dapat beralih antara bahasa Indonesia dan English melalui tombol ID/EN di navigasi."
-      },
-      {
-        question: "Bagaimana cara menyesuaikan isi sesuai PDF profil perusahaan?",
-        answer:
-          "Konten berada di file public/app.js sehingga teks layanan, nilai, FAQ, dan portofolio mudah diperbarui mengikuti dokumen resmi."
-      },
-      {
-        question: "Apakah desainnya mobile friendly?",
-        answer:
-          "Ya. Layout memakai grid responsif, menu mobile, tombol besar, dan jarak baca yang nyaman untuk layar kecil."
-      }
+      { mark: "S", title: "Safety", body: "Keselamatan kerja menjadi prioritas dalam setiap aktivitas lapangan." },
+      { mark: "Q", title: "Quality", body: "Mutu material dan hasil pekerjaan dikontrol secara konsisten." },
+      { mark: "I", title: "Integrity", body: "Komunikasi progres dilakukan terbuka dan dapat dipertanggungjawabkan." },
+      { mark: "D", title: "Delivery", body: "Pekerjaan diarahkan agar selesai rapi, efektif, dan sesuai target." }
     ]
   },
   en: {
@@ -165,44 +147,42 @@ const translations = {
     navWork: "Portfolio",
     navContact: "Contact",
     heroEyebrow: "Company Profile",
-    heroTitle: "A trusted partner for resilient and sustainable business solutions.",
+    heroTitle: "A trusted construction partner for durable, functional, and valuable spaces.",
     heroLead:
-      "PT NJB helps organizations move faster through professional services, disciplined governance, and measurable project execution.",
-    heroPrimary: "Start a Consultation",
+      "PT NJB delivers construction, renovation, and project support services with professional safety standards, workmanship quality, and field coordination.",
+    heroPrimary: "Discuss Your Project",
     heroSecondary: "Explore Services",
-    trustOne: "Responsive",
-    trustTwo: "Professional",
-    trustThree: "Result Oriented",
+    trustOne: "Safety First",
+    trustTwo: "Quality Driven",
+    trustThree: "Project Focused",
     heroCardLabel: "PT NJB at a glance",
-    heroCardTitle: "Building value through reliable execution.",
-    metricOne: "Service Pillars",
-    metricTwo: "Support Hours",
-    metricThree: "Commitment",
+    heroCardTitle: "Clean, measurable construction ready to support business growth.",
+    metricOne: "Construction Pillars",
+    metricTwo: "Field Coordination",
+    metricThree: "Quality Focus",
     aboutEyebrow: "About Us",
-    aboutTitle: "A company designed to move with adaptability, accuracy, and transparency.",
+    aboutTitle: "A construction company focused on quality, safety, and precise execution.",
     aboutCardOneTitle: "Who We Are",
     aboutCardOneBody:
-      "PT NJB is a business partner focused on business services, procurement, and project support through a collaborative approach.",
-    aboutCardTwoTitle: "How We Work",
+      "PT NJB is a construction company supporting building works, infrastructure, renovation, and fit-out projects with a professional approach.",
+    aboutCardTwoTitle: "Work Standards",
     aboutCardTwoBody:
-      "We combine clear planning, active coordination, and performance monitoring so every client need is handled with focus.",
+      "We combine technical planning, field supervision, material control, and progress communication to keep every project well managed.",
     aboutCardThreeTitle: "Our Commitment",
     aboutCardThreeBody:
-      "Delivering dependable, measurable solutions built for long-term relationships.",
+      "Delivering safe, functional, well-finished, and accountable construction results.",
     servicesEyebrow: "Services",
-    servicesTitle: "Complete support from strategy to operations.",
+    servicesTitle: "Integrated construction services from planning to handover.",
     processEyebrow: "Work Process",
-    processTitle: "Simple steps for more measurable outcomes.",
-    workEyebrow: "Industry Focus",
-    workTitle: "Flexible for various business and project needs.",
+    processTitle: "A professional workflow to maintain quality at every project stage.",
+    workEyebrow: "Scope of Work",
+    workTitle: "Focused on construction work that is functional, safe, and durable.",
     valuesEyebrow: "Company Values",
-    valuesTitle: "The work foundation that keeps client trust strong.",
-    faqEyebrow: "FAQ",
-    faqTitle: "Quick information before starting a conversation.",
+    valuesTitle: "The work foundation that protects project quality and client trust.",
     contactEyebrow: "Contact Us",
-    contactTitle: "Let's discuss your company's needs.",
+    contactTitle: "Let's discuss your construction needs.",
     contactBody:
-      "Send a short summary of your needs, and the PT NJB team will follow up with the right approach.",
+      "Send a short summary of your project, location, and work requirements. The PT NJB team will follow up with the right approach.",
     contactEmail: "info@pt-njb.co.id",
     contactWebsite: "pt-njb.vercel.app",
     formName: "Name",
@@ -214,107 +194,91 @@ const translations = {
     footerBack: "Back to top",
     filters: {
       all: "All",
-      business: "Business",
-      supply: "Procurement",
-      project: "Project"
+      building: "Building",
+      infrastructure: "Infrastructure",
+      renovation: "Renovation"
     },
     services: [
       {
         icon: "01",
-        title: "Business Support",
-        body: "Operational support that helps companies maintain workflow rhythm and service quality.",
-        points: ["Business administration", "Vendor coordination", "Documentation and reporting"]
+        title: "Building Construction",
+        body: "Building execution with field supervision, quality control, and well-coordinated manpower.",
+        points: ["Structural and architectural works", "Workmanship quality control", "Project schedule coordination"]
       },
       {
         icon: "02",
-        title: "Procurement & Trading",
-        body: "Procurement solutions focused on specification fit, timeliness, and process transparency.",
-        points: ["Needs sourcing", "Offer comparison", "Goods fulfillment control"]
+        title: "Renovation & Fit-Out",
+        body: "Commercial, office, and facility upgrades with functional, clean, and brand-aligned results.",
+        points: ["Site survey and space planning", "Interior and finishing works", "Ready-to-use handover"]
       },
       {
         icon: "03",
-        title: "Project Assistance",
-        body: "Project assistance from early planning to implementation so progress stays measurable.",
-        points: ["Work planning", "Progress monitoring", "Field coordination"]
+        title: "Project Management",
+        body: "Technical assistance to keep progress, cost, material, and work safety under control.",
+        points: ["Work plan and method statement", "Field progress monitoring", "Reporting and documentation"]
       }
     ],
     timeline: [
       {
-        title: "Discovery",
-        body: "Understanding needs, scope, priorities, and target outcomes with the client."
+        title: "Site Survey",
+        body: "Understanding site conditions, technical needs, work priorities, and target outcomes with the client."
       },
       {
-        title: "Planning",
-        body: "Preparing the approach, work schedule, and realistic success indicators."
+        title: "Technical Planning",
+        body: "Preparing work methods, schedule, material requirements, and the quality standards to be applied."
       },
       {
-        title: "Execution",
-        body: "Running the work with active coordination and clear communication."
+        title: "Construction",
+        body: "Executing the work with field supervision, safety control, and clear progress communication."
       },
       {
-        title: "Reporting",
-        body: "Delivering progress, evaluation, and next-step recommendations transparently."
+        title: "Handover",
+        body: "Completing final inspection, documentation, and transparent project handover."
       }
     ],
     portfolio: [
       {
-        category: "business",
-        title: "Corporate Operational Support",
-        body: "Helping internal teams improve workflows, documents, and cross-stakeholder communication.",
+        category: "building",
+        title: "Buildings and Facilities",
+        body: "Construction work for operational, commercial, and supporting facility needs.",
         color: "#dff4ff"
       },
       {
-        category: "supply",
-        title: "Business Needs Procurement",
-        body: "Managing fulfillment processes with attention to quality, price, and timely delivery.",
+        category: "infrastructure",
+        title: "Civil and Infrastructure Works",
+        body: "Civil works, access, utilities, and supporting areas to help facilities operate effectively.",
         color: "#e4fbf2"
       },
       {
-        category: "project",
-        title: "Field Project Coordination",
-        body: "Keeping field activities on track through active coordination and periodic reporting.",
+        category: "renovation",
+        title: "Office and Business Space Renovation",
+        body: "Layout, finishing, and functional upgrades that create more productive working environments.",
         color: "#fff4d8"
       },
       {
-        category: "business",
-        title: "Administration and Reporting",
-        body: "Preparing organized documentation so business decisions can be made with clear data.",
+        category: "building",
+        title: "Structural and Architectural Works",
+        body: "Detailed execution for structure, walls, flooring, roofing, and architectural elements.",
         color: "#e7e9ff"
       },
       {
-        category: "supply",
-        title: "Vendor Management",
-        body: "Supporting partner selection, communication, and evaluation based on client needs.",
+        category: "infrastructure",
+        title: "Site Development and Support Areas",
+        body: "Outdoor area arrangement, drainage, work access, and supporting facilities for smooth operations.",
         color: "#e0f7fa"
       },
       {
-        category: "project",
-        title: "Implementation and Monitoring",
-        body: "Helping ensure plans run on target through supervision and structured follow-up.",
+        category: "renovation",
+        title: "Fit-Out and Interior Finishing",
+        body: "Interior finishing that emphasizes detail, comfort, and readiness for use.",
         color: "#ffe6e6"
       }
     ],
     values: [
-      { mark: "T", title: "Transparent", body: "Open communication from the beginning to the end of the work." },
-      { mark: "A", title: "Accountable", body: "Every decision and progress update has a clear basis." },
-      { mark: "A", title: "Agile", body: "Quickly adapting the approach to client needs." },
-      { mark: "R", title: "Results", body: "Focused on impact that can be felt and measured." }
-    ],
-    faqs: [
-      {
-        question: "Is this website available in two languages?",
-        answer: "Yes. Visitors can switch between Indonesian and English using the ID/EN buttons in the navigation."
-      },
-      {
-        question: "How can the content be adjusted to match the company profile PDF?",
-        answer:
-          "The content is stored in public/app.js, making services, values, FAQs, and portfolio text easy to update from the official document."
-      },
-      {
-        question: "Is the design mobile friendly?",
-        answer:
-          "Yes. The layout uses responsive grids, a mobile menu, large touch targets, and comfortable spacing for smaller screens."
-      }
+      { mark: "S", title: "Safety", body: "Work safety is a priority in every field activity." },
+      { mark: "Q", title: "Quality", body: "Material quality and workmanship are controlled consistently." },
+      { mark: "I", title: "Integrity", body: "Progress communication is transparent and accountable." },
+      { mark: "D", title: "Delivery", body: "Work is directed to finish cleanly, effectively, and on target." }
     ]
   }
 };
@@ -406,22 +370,6 @@ function renderDynamicSections() {
           <strong>${value.mark}</strong>
           <h3>${value.title}</h3>
           <p>${value.body}</p>
-        </article>
-      `
-    )
-    .join("");
-
-  $("[data-faq-list]").innerHTML = content.faqs
-    .map(
-      (faq, index) => `
-        <article class="faq-item ${index === 0 ? "open" : ""}">
-          <button class="faq-trigger" type="button" aria-expanded="${index === 0}" data-faq-trigger>
-            <span>${faq.question}</span>
-            <span aria-hidden="true">+</span>
-          </button>
-          <div class="faq-panel">
-            <p>${faq.answer}</p>
-          </div>
         </article>
       `
     )
@@ -527,19 +475,6 @@ function bindEvents() {
     if (filterButton) {
       state.filter = filterButton.dataset.filter;
       renderDynamicSections();
-      return;
-    }
-
-    const faqButton = event.target.closest("[data-faq-trigger]");
-    if (faqButton) {
-      const item = faqButton.closest(".faq-item");
-      const willOpen = !item.classList.contains("open");
-      $$(".faq-item").forEach((faqItem) => {
-        faqItem.classList.remove("open");
-        $("[data-faq-trigger]", faqItem).setAttribute("aria-expanded", "false");
-      });
-      item.classList.toggle("open", willOpen);
-      faqButton.setAttribute("aria-expanded", String(willOpen));
     }
   });
 
