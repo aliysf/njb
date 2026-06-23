@@ -341,6 +341,9 @@ h3 {
 .hero-card {
   position: relative;
   display: grid;
+  grid-template-rows: auto auto;
+  align-content: center;
+  gap: 18px;
   min-height: 560px;
   place-items: center;
 }
@@ -370,9 +373,47 @@ h3 {
   animation: float 8s ease-in-out infinite reverse;
 }
 
+.hero-image-frame {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 520px);
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-image-frame img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.hero-image-frame figcaption {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(10, 46, 54, 0.78);
+  color: var(--white);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  padding: 10px 14px;
+  text-align: center;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+}
+
 .profile-card {
   position: relative;
+  z-index: 3;
   width: min(100%, 460px);
+  margin-top: -74px;
   border: 1px solid rgba(255, 255, 255, 0.74);
   border-radius: var(--radius-lg);
   background:
@@ -847,7 +888,7 @@ h3 {
   }
 
   .hero-card {
-    min-height: 430px;
+    min-height: auto;
   }
 
   .about-grid,
@@ -903,6 +944,7 @@ h3 {
   }
 
   .profile-card {
+    margin-top: -38px;
     padding: 24px;
   }
 
